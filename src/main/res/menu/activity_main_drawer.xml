@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="图片操作">
+        <menu>
+            <item
+                android:id="@+id/nav_clear_all"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="清空所有" />
+            <item
+                android:id="@+id/nav_export_pic"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="保存图片" />
+        </menu>
+    </item>
+    <item android:title="工具选择">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_brush"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="画笔工具" />
+                <item
+                    android:id="@+id/nav_eraser"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="橡皮擦" />
+                <item
+                    android:id="@+id/nav_figure"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="规则图形" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="关于" />
+
+        </menu>
+    </item>
+
+</menu>

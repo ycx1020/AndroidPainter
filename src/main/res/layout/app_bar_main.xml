@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ycx.com.painter.MainActivity">
+
+
+    <ycx.com.painter.CanvasView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--include layout="@layout/ll" /-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/function"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/function_pic"
+        app:backgroundTint="#fff7f7f7"
+        app:elevation="3dp"
+        app:rippleColor="#adadad" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/undo_pic"
+        app:backgroundTint="#fff7f7f7"
+        app:elevation="3dp"
+        app:rippleColor="#adadad" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/redo_pic"
+        app:backgroundTint="#fff7f7f7"
+        app:elevation="3dp"
+        app:rippleColor="#adadad" />
+
+</android.support.design.widget.CoordinatorLayout>
